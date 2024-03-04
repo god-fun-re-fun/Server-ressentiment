@@ -1,4 +1,4 @@
-package com.godfunrefun.ressentiment;
+package godfunrefun.ressentiment;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

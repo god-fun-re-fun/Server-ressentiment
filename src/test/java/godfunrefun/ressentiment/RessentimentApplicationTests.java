@@ -1,4 +1,4 @@
-package com.godfunrefun.ressentiment;
+package godfunrefun.ressentiment;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
