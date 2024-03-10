@@ -6,13 +6,19 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Getter
 public class InteractionResultResponse {
-    private float R;
-    private float G;
-    private float B;
+    private double R;
+    private double G;
+    private double B;
 
-    public InteractionResultResponse(float R, float G, float B) {
+    public InteractionResultResponse(double R, double G, double B) {
         this.R = R;
         this.G = G;
         this.B = B;
+    }
+
+    public InteractionResultResponse(String R, String G, String B) {
+        this.R = Double.parseDouble(R);
+        this.G = Double.parseDouble(G);
+        this.B = Double.parseDouble(B);
     }
 }

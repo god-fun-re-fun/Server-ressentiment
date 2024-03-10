@@ -5,4 +5,6 @@ import godfunrefun.ressentiment.dto.response.InteractionResultResponse;
 
 public interface InteractionService {
     public InteractionResultResponse saveInteractionResult(InteractionResultRequest request);
+
+    public InteractionResultResponse getInteractionResult();
 }
